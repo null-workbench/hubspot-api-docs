@@ -1,28 +1,50 @@
+name: Generate index.json
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "PublicApiSpecs/**"
+      - ".github/workflows/generate-index.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
       - name: Generate index.json
+        shell: bash
         run: |
-          echo '{' > index.json
-          echo '  "repo": "null-workbench/hubspot-api-docs",' >> index.json
-          echo '  "root": "PublicApiSpecs",' >> index.json
-          echo '  "generatedAt": "'"$(date -u +"%Y-%m-%dT%H:%M:%SZ")"'",' >> index.json
-          echo '  "files": [' >> index.json
+          set -euo pipefail
+
+          OUT="index.json"
+
+          echo '{' > "$OUT"
+          echo '  "repo": "null-workbench/hubspot-api-docs",' >> "$OUT"
+          echo '  "root": "PublicApiSpecs",' >> "$OUT"
+          echo '  "generatedAt": "'"$(date -u +"%Y-%m-%dT%H:%M:%SZ")"'",' >> "$OUT"
+          echo '  "files": [' >> "$OUT"
 
           first=true
-          find PublicApiSpecs -type f -name "*.json" | sort | while read file; do
+          while IFS= read -r file; do
             if [ "$first" = true ]; then
               first=false
             else
-              echo ',' >> index.json
+              echo ',' >> "$OUT"
             fi
 
             area=$(echo "$file" | cut -d'/' -f2)
-            version=$(echo "$file" | grep -o '/v[0-9]\+' | head -n1 | tr -d '/')
+            version=$(echo "$file" | grep -o '/v[0-9]\+' | head -n1 | tr -d '/' || true)
 
-            # Build keywords from the file path (folder + filename tokens)
-            # - split on / and spaces and underscores and dashes and ampersands
-            # - lowercase
-            # - drop obvious noise
-            kw=$(echo "$file" \
-              | sed 's|PublicApiSpecs/||g' \
+            # Keywords from path tokens
+            kw_lines=$(echo "$file" \
+              | sed 's|^PublicApiSpecs/||' \
               | tr '/ _-&' '\n' \
               | tr '[:upper:]' '[:lower:]' \
               | sed '/^$/d' \
@@ -31,20 +53,28 @@
               | sed '/^[0-9]\+$/d' \
               | sed '/^collection$/d' \
               | sed '/^directory$/d' \
-              | sed '/^publicapispecs$/d' \
               | sort -u)
 
-            # Convert keywords lines to JSON array
-            keywords_json=$(printf '%s\n' "$kw" | awk 'BEGIN{ORS=""; first=1} {gsub(/"/,"\\\""); if(first){printf "\"%s\"", $0; first=0}else{printf ",\"%s\"", $0}}')
+            keywords_json=$(printf '%s\n' "$kw_lines" | awk 'BEGIN{ORS=""; first=1} {gsub(/"/,"\\\""); if(first){printf "\"%s\"", $0; first=0}else{printf ",\"%s\"", $0}}')
 
-            echo "    {" >> index.json
-            echo "      \"path\": \"$file\"," >> index.json
-            echo "      \"area\": \"$area\"," >> index.json
-            echo "      \"version\": \"${version:-unknown}\"," >> index.json
-            echo "      \"keywords\": [${keywords_json}]" >> index.json
-            echo "    }" >> index.json
-          done
+            echo '    {' >> "$OUT"
+            echo '      "path": "'"$file"'",' >> "$OUT"
+            echo '      "area": "'"$area"'",' >> "$OUT"
+            echo '      "version": "'"${version:-unknown}"'",' >> "$OUT"
+            echo '      "keywords": ['"$keywords_json"']' >> "$OUT"
+            echo '    }' >> "$OUT"
+          done < <(find PublicApiSpecs -type f -name "*.json" | sort)
 
-          echo '' >> index.json
-          echo '  ]' >> index.json
-          echo '}' >> index.json
+          echo '' >> "$OUT"
+          echo '  ]' >> "$OUT"
+          echo '}' >> "$OUT"
+
+      - name: Commit index.json
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add index.json
+          git commit -m "Auto-generate index.json" || exit 0
+          git push
