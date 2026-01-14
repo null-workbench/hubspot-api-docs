@@ -1,0 +1,53 @@
+name: Generate index.json
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "PublicApiSpecs/**"
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Generate index.json
+        run: |
+          echo '{' > index.json
+          echo '  "repo": "null-workbench/hubspot-api-docs",' >> index.json
+          echo '  "root": "PublicApiSpecs",' >> index.json
+          echo '  "generatedAt": "'"$(date -u +"%Y-%m-%dT%H:%M:%SZ")"'",' >> index.json
+          echo '  "files": [' >> index.json
+
+          first=true
+          find PublicApiSpecs -type f -name "*.json" | sort | while read file; do
+            if [ "$first" = true ]; then
+              first=false
+            else
+              echo ',' >> index.json
+            fi
+
+            area=$(echo "$file" | cut -d'/' -f2)
+            version=$(echo "$file" | grep -o '/v[0-9]\+' | head -n1 | tr -d '/')
+
+            echo "    {" >> index.json
+            echo "      \"path\": \"$file\"," >> index.json
+            echo "      \"area\": \"$area\"," >> index.json
+            echo "      \"version\": \"${version:-unknown}\"" >> index.json
+            echo "    }" >> index.json
+          done
+
+          echo '' >> index.json
+          echo '  ]' >> index.json
+          echo '}' >> index.json
+
+      - name: Commit index.json
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add index.json
+          git commit -m "Auto-generate index.json" || echo "No changes"
+          git push
