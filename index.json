@@ -1,0 +1,1555 @@
+{
+  "repo": "null-workbench/hubspot-api-docs",
+  "root": "PublicApiSpecs",
+  "generatedAt": "2026-01-14T22:39:18Z",
+  "files": [
+    {
+      "path": "PublicApiSpecs/Account/Account Info/Rollouts/136890/v3/Collection Directory Account Info API /Account - Account Info V3 API Collection.json",
+      "area": "Account",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Account/Account Info/Rollouts/136890/v3/accountInfo.json",
+      "area": "Account",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Account/Account Info/Rollouts/144923/2025-09/Collection_Directory AccountActivityDBV/Account - Account Activity API DBV Collection.json",
+      "area": "Account",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Account/Account Info/Rollouts/144923/2025-09/accountInfo.json",
+      "area": "Account",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Account/Account Info/Rollouts/144923/v3/Collection_Directory/Settings - Account Info API Collection.json",
+      "area": "Account",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Account/Account Info/Rollouts/144923/v3/accountInfo.json",
+      "area": "Account",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Account/Audit Logs/Rollouts/136890/v3/auditLogs.json",
+      "area": "Account",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Account/Audit Logs/Rollouts/144923/v3/Collection Directory_Audit Logs/Audit Logs API Collection.json",
+      "area": "Account",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Account/Audit Logs/Rollouts/144923/v3/auditLogs.json",
+      "area": "Account",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Account/Test Child Api/Rollouts/136890/v3/testChildApi.json",
+      "area": "Account",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Account/Test Child Api/Rollouts/144923/v3/testChildApi.json",
+      "area": "Account",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Auth/Oauth/Rollouts/155908/v1/Collection Directory_OAuth/OAuth Collection.json",
+      "area": "Auth",
+      "version": "v1"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Auth/Oauth/Rollouts/155908/v1/oauth.json",
+      "area": "Auth",
+      "version": "v1"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Automation/Actions V4/Rollouts/148901/v4/Collection Directory_Automation Actions/Automation - Custom Workflow Actions API Collection.json",
+      "area": "Automation",
+      "version": "v4"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Automation/Actions V4/Rollouts/148901/v4/actionsV4.json",
+      "area": "Automation",
+      "version": "v4"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Automation/Automation V4/Rollouts/144908/v4/Collection Directory_Automation Workflows API /Automation - V4 Workflows API Collection.json",
+      "area": "Automation",
+      "version": "v4"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Automation/Automation V4/Rollouts/144908/v4/automationV4.json",
+      "area": "Automation",
+      "version": "v4"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Automation/Sequences/Rollouts/177891/v4/Sequences API Collection Directory/Automation - Sequences API Collection.json",
+      "area": "Automation",
+      "version": "v4"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Automation/Sequences/Rollouts/177891/v4/sequences.json",
+      "area": "Automation",
+      "version": "v4"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Business Units/Business Units/Rollouts/140946/v3/Collection Directory 2/Settings - Business Unit API Collection.json",
+      "area": "Business Units",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Business Units/Business Units/Rollouts/140946/v3/businessUnits.json",
+      "area": "Business Units",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Authors/Rollouts/635/v3/Collection Directory 3/Blog Authors API Collection.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Authors/Rollouts/635/v3/authors.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Blog Settings/Rollouts/635/v3/Collection Directory 4/CMS - Blog Settings API Collection.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Blog Settings/Rollouts/635/v3/blogSettings.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Cms Content Audit/Rollouts/144888/v3/CMS Content Audit API_Collection Directory/CMS - Content Audit API Collection.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Cms Content Audit/Rollouts/144888/v3/cmsContentAudit.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Domains/Rollouts/149894/v3/Collection Directory_CMS Domains API/CMS - Domains API Collection.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Domains/Rollouts/149894/v3/domains.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Hubdb/Rollouts/146890/v3/Collection Directory_HubDb/CMS - HubDb API Collection.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Hubdb/Rollouts/146890/v3/hubdb.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Hubdb/Rollouts/243927/v3/hubdb.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Media Bridge/Rollouts/787/v1/Collection Directory Media Bridges API/CMS - Media Bridge API Collection.json",
+      "area": "CMS",
+      "version": "v1"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Media Bridge/Rollouts/787/v1/mediaBridge.json",
+      "area": "CMS",
+      "version": "v1"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Pages/Rollouts/59888/v3/Collection Directory_Pages API/CMS - Pages API Collection.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Pages/Rollouts/59888/v3/pages.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Posts/Rollouts/635/v3/Collection Directory_BlogPosts/CMS - Blog Posts API Collection.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Posts/Rollouts/635/v3/posts.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Site Search/Rollouts/144890/v3/Collection Directory_CMS Site Search API/CMS - Site Search API Collection.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Site Search/Rollouts/144890/v3/siteSearch.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Source Code/Rollouts/140886/v3/Collection Directory_SourceCode/CMS - Source Code API Collection.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Source Code/Rollouts/140886/v3/sourceCode.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Tags/Rollouts/635/v3/Collection Directory_Tags/CMS - Blog Tags API Collection.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Tags/Rollouts/635/v3/tags.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Url Redirects/Rollouts/149916/v3/Collection Directory_URL Redirects API/CMS - URL Redirects API Collection.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CMS/Url Redirects/Rollouts/149916/v3/urlRedirects.json",
+      "area": "CMS",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/App Uninstalls/Rollouts/209039/v3/App Uninstall API Collection Directory/App Management - Uninstall API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/App Uninstalls/Rollouts/209039/v3/appUninstalls.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Appointments/Rollouts/424/2025-09/appointments.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Appointments/Rollouts/424/2026-03/appointments.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Appointments/Rollouts/424/v3/Collection Directory Appointments API/CRM - Appointments API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Appointments/Rollouts/424/v3/appointments.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Associations Schema/Rollouts/120891/v3/Collection Directory_AssocV3/CRM - Associations V3 Schema API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Associations Schema/Rollouts/120891/v3/associationsSchema.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Associations Schema/Rollouts/130902/v4/CRM - Associations Schema V4 API Collection.json",
+      "area": "CRM",
+      "version": "v4"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Associations Schema/Rollouts/130902/v4/associationsSchema.json",
+      "area": "CRM",
+      "version": "v4"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Associations Schema/Rollouts/50914/v4/associationsSchema.json",
+      "area": "CRM",
+      "version": "v4"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Associations/Rollouts/120891/v3/Collection Directory_V3 Associations API/CRM - Associations V3 API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Associations/Rollouts/120891/v3/associations.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Associations/Rollouts/130902/2025-09/CollectionDirectory_AssociationsAPIDBV/CRM - Associations DBV API Collection.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Associations/Rollouts/130902/2025-09/associations.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Associations/Rollouts/130902/v4/Collection Directory_AssocV4/CRM - Associations V4 API Collection.json",
+      "area": "CRM",
+      "version": "v4"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Associations/Rollouts/130902/v4/associations.json",
+      "area": "CRM",
+      "version": "v4"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Associations/Rollouts/50914/v4/Collection Directory_FlexAssocV4/CRM - Associations V4 Flexible Associations Collection.json",
+      "area": "CRM",
+      "version": "v4"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Associations/Rollouts/50914/v4/associations.json",
+      "area": "CRM",
+      "version": "v4"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Bucket_Test111/Rollouts/424/v3/buckettest111.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Calling Extensions/Rollouts/145891/v3/Collection Directory_CallingExtensions/Extend CRM - Calling Extensions API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Calling Extensions/Rollouts/145891/v3/callingExtensions.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Calls/Rollouts/424/2025-09/calls.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Calls/Rollouts/424/v3/Collection Directory_Calls/CRM - Engagements, Calls API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Calls/Rollouts/424/v3/calls.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Carts/Rollouts/424/2025-09/carts.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Carts/Rollouts/424/v3/Collection Directory_Carts/CRM - Carts API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Carts/Rollouts/424/v3/carts.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Commerce Payments/Rollouts/424/2025-09/commercePayments.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Commerce Payments/Rollouts/424/v3/Collection Directory_Commerce Payments/CRM - Commerce Payments API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Commerce Payments/Rollouts/424/v3/commercePayments.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Commerce Subscriptions/Rollouts/206901/2025-09/commerceSubscriptions.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Commerce Subscriptions/Rollouts/206901/v1/commerceSubscriptions.json",
+      "area": "CRM",
+      "version": "v1"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Commerce Subscriptions/Rollouts/206901/v3/commerceSubscriptions.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Commerce Subscriptions/Rollouts/424/2025-09/commerceSubscriptions.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Commerce Subscriptions/Rollouts/424/v3/Collections Directory_Subscriptions/CRM - Commerce Subscriptions API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Commerce Subscriptions/Rollouts/424/v3/commerceSubscriptions.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Communications/Rollouts/424/2025-09/communications.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Communications/Rollouts/424/v3/Collection Directory_Communications/CRM - Engagements, Communications API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Communications/Rollouts/424/v3/communications.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Companies/Rollouts/424/2025-09/companies.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Companies/Rollouts/424/v3/Collection Directory_Companies/CRM - Companies API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Companies/Rollouts/424/v3/companies.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Contacts/Rollouts/107729/v3/contacts.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Contacts/Rollouts/424/2025-09/contacts.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Contacts/Rollouts/424/2026-03/contacts.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Contacts/Rollouts/424/v3/Collection Directory_Contacts/CRM - Contacts API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Contacts/Rollouts/424/v3/contacts.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Contracts/Rollouts/424/2025-09/contracts.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Contracts/Rollouts/424/v3/contracts.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Courses/Rollouts/424/2025-09/courses.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Courses/Rollouts/424/v3/Collection Directory Courses API/CRM - Courses API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Courses/Rollouts/424/v3/courses.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Crm Owners/Rollouts/146888/v3/Collection Directory_CRMOwner/CRM - Owners API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Crm Owners/Rollouts/146888/v3/crmOwners.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Custom Objects/Rollouts/424/2025-09/customObjects.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Custom Objects/Rollouts/424/2026-03/customObjects.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Custom Objects/Rollouts/424/v3/Collection Directory_CustomObjects/CRM - Custom Objects API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Custom Objects/Rollouts/424/v3/customObjects.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Deal Splits/Rollouts/157885/v3/Collection Directory_Deal Splits/CRM - Deal Splits API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Deal Splits/Rollouts/157885/v3/dealSplits.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Deals/Rollouts/424/2025-09/deals.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Deals/Rollouts/424/v3/Collection Directory_Deals/CRM - Deals API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Deals/Rollouts/424/v3/deals.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Discounts/Rollouts/424/2025-09/discounts.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Discounts/Rollouts/424/2026-03/discounts.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Discounts/Rollouts/424/v3/Collection Directory_Discounts/CRM - Discounts API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Discounts/Rollouts/424/v3/discounts.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Emails/Rollouts/424/2025-09/emails.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Emails/Rollouts/424/v3/Collection Directory_Emails/CRM - Engagements, Email API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Emails/Rollouts/424/v3/emails.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Exports/Rollouts/95922/v3/Collection Directory_Exports/CRM - Exports API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Exports/Rollouts/95922/v3/exports.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Feedback Submissions/Rollouts/424/2025-09/feedbackSubmissions.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Feedback Submissions/Rollouts/424/v3/Collection Directory_FeedbackSubmission/CRM - Feedback Submissions API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Feedback Submissions/Rollouts/424/v3/feedbackSubmissions.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Fees/Rollouts/424/2025-09/fees.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Fees/Rollouts/424/v3/Collection Directory_Fees/CRM - Fees API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Fees/Rollouts/424/v3/fees.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Forecast Types/Rollouts/260892/v3/forecastTypes.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Forecasts/Rollouts/260892/v3/forecasts.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Goal Targets/Rollouts/424/2025-09/goalTargets.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Goal Targets/Rollouts/424/v3/Collection Directory_GoalTargets/CRM - Goals API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Goal Targets/Rollouts/424/v3/goalTargets.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Imports/Rollouts/144903/v3/Collection Directory_Imports/CRM - Imports API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Imports/Rollouts/144903/v3/imports.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Invoices/Rollouts/424/2025-09/invoices.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Invoices/Rollouts/424/v3/Collection Directory_Invoices/CRM - Invoices API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Invoices/Rollouts/424/v3/invoices.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Leads/Rollouts/424/2025-09/leads.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Leads/Rollouts/424/v3/Collection Directory_Leads/CRM - Leads API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Leads/Rollouts/424/v3/leads.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Limits Tracking/Rollouts/199890/v3/Limits Tracking API Collection Directory/CRM - Limits API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Limits Tracking/Rollouts/199890/v3/limitsTracking.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Line Items/Rollouts/424/2025-09/lineItems.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Line Items/Rollouts/424/v3/Collection Directory_LineItems/CRM - Line Items API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Line Items/Rollouts/424/v3/lineItems.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Listings/Rollouts/424/2025-09/listings.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Listings/Rollouts/424/v3/Collection Directory Listings API /CRM - Listings API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Listings/Rollouts/424/v3/listings.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Lists/Rollouts/144891/v3/Collection_Directory_Lists/CRM - Lists API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Lists/Rollouts/144891/v3/lists.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Meetings/Rollouts/424/2025-09/meetings.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Meetings/Rollouts/424/v3/Collection Directory_Meetings/CRM - Engagements, Meetings API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Meetings/Rollouts/424/v3/meetings.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Notes/Rollouts/424/2025-09/notes.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Notes/Rollouts/424/v3/Collection Directory_Notes/CRM - Engagements, Notes API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Notes/Rollouts/424/v3/notes.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Object Library/Rollouts/196908/v3/Collection Directory_Objects Library API/CRM - Objects Library API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Object Library/Rollouts/196908/v3/objectLibrary.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Objects/Rollouts/424/2025-09/CollectionDirectory_ObjectsAPIDBV/CRM - Objects DBV API Collection.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Objects/Rollouts/424/2025-09/objects.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Objects/Rollouts/424/v3/Collection Directory_Objects/CRM - Objects API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Objects/Rollouts/424/v3/objects.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Orders/Rollouts/424/2025-09/orders.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Orders/Rollouts/424/v3/Collection Directory_Orders/CRM - Orders API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Orders/Rollouts/424/v3/orders.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Partner Clients/Rollouts/424/2025-09/partnerClients.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Partner Clients/Rollouts/424/v3/CRM Partner Clients API Collection Directory/CRM - Partner Clients API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Partner Clients/Rollouts/424/v3/partnerClients.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Partner Services/Rollouts/424/2025-09/partnerServices.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Partner Services/Rollouts/424/v3/Collection Directory_v3 Partner Services/CRM - Partner Services API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Partner Services/Rollouts/424/v3/partnerServices.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Payments/Rollouts/424/v3/Collection Directory_Payments/CRM - Payments API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Payments/Rollouts/424/v3/payments.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Pipelines/Rollouts/145896/v3/Collection Directory_Pipelines API/CRM - Pipelines API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Pipelines/Rollouts/145896/v3/pipelines.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Postal Mail/Rollouts/424/2025-09/postalMail.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Postal Mail/Rollouts/424/v3/Collection Directory_PostalMail/CRM - Engagements, Postal Mail API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Postal Mail/Rollouts/424/v3/postalMail.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Products/Rollouts/424/2025-09/products.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Products/Rollouts/424/v3/Collection Directory_Products/CRM - Products API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Products/Rollouts/424/v3/products.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Projects/Rollouts/260890/v3/Collection Directory Projects API/CRM - Projects API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Projects/Rollouts/260890/v3/projects.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Properties/Rollouts/145899/2025-09/CollectionDirectoryPropertiesAPIDBV/CRM - Properties DBV API Collection.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Properties/Rollouts/145899/2025-09/properties.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Properties/Rollouts/145899/v3/Properties API Collection Directory/CRM - Properties API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Properties/Rollouts/145899/v3/properties.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Property Validations/Rollouts/215885/v3/Property Validations API_Collection Directory/CRM - Property Validations API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Property Validations/Rollouts/215885/v3/propertyValidations.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Public App Crm Cards/Rollouts/147892/v3/Collection Directory_CRMCards/CRM - CRM Cards API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Public App Crm Cards/Rollouts/147892/v3/publicAppCrmCards.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Public App Feature Flags V3/Rollouts/195919/v3/Collection Directory_Feature Flags API/CRM - Feature Flags API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Public App Feature Flags V3/Rollouts/195919/v3/publicAppFeatureFlagsV3.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Quotes/Rollouts/424/2025-09/quotes.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Quotes/Rollouts/424/v3/Collection Directory_Quotes/CRM - Quotes API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Quotes/Rollouts/424/v3/quotes.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Schemas/Rollouts/145900/v3/Collection Directory_Schemas API/CRM - Schemas API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Schemas/Rollouts/145900/v3/schemas.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Services/Rollouts/424/2025-09/services.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Services/Rollouts/424/v3/Collection Directory Services API/CRM - Services API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Services/Rollouts/424/v3/services.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Subscription Lifecycle/Rollouts/206901/v1/subscriptionLifecycle.json",
+      "area": "CRM",
+      "version": "v1"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Tasks/Rollouts/424/2025-09/tasks.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Tasks/Rollouts/424/v3/Collection Directory_Tasks/CRM - Engagements, Tasks API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Tasks/Rollouts/424/v3/tasks.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Taxes/Rollouts/424/2025-09/taxes.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Taxes/Rollouts/424/v3/Collection Directory_Taxes/CRM - Taxes API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Taxes/Rollouts/424/v3/taxes.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Tickets/Rollouts/424/2025-09/tickets.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Tickets/Rollouts/424/v3/Collection Directory_Tickets/CRM - Tickets API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Tickets/Rollouts/424/v3/tickets.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Timeline/Rollouts/147898/v3/Collection Directory Timeline API/Extend CRM - Timeline API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Timeline/Rollouts/147898/v3/timeline.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Transcriptions/Rollouts/178922/v3/transcriptions.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Users/Rollouts/424/2025-09/users.json",
+      "area": "CRM",
+      "version": "unknown"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Users/Rollouts/424/v3/Collection Directory_Users/Settings - Users API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Users/Rollouts/424/v3/users.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Video Conferencing Extension/Rollouts/148903/v3/Collection Directory_VideoConfExt/Extend CRM - Video Conference Ext API Collection.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/CRM/Video Conferencing Extension/Rollouts/148903/v3/videoConferencingExtension.json",
+      "area": "CRM",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Communication Preferences/Subscriptions/Rollouts/147906/v3/Collection Directory_Subscriptions/Marketing - Subscription Preferences API Collection.json",
+      "area": "Communication Preferences",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Communication Preferences/Subscriptions/Rollouts/147906/v3/subscriptions.json",
+      "area": "Communication Preferences",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Communication Preferences/Subscriptions/Rollouts/176901/v4/Collection Directory Subscript Preferences V4/Marketing - Subscription Preferences V4 API Collection.json",
+      "area": "Communication Preferences",
+      "version": "v4"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Communication Preferences/Subscriptions/Rollouts/176901/v4/subscriptions.json",
+      "area": "Communication Preferences",
+      "version": "v4"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Conversations/Conversations Inbox & Messages/Rollouts/54902/v3/Collection Directory_ConvoInboxMsg/Conversations - Conversations API Collection.json",
+      "area": "Conversations",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Conversations/Conversations Inbox & Messages/Rollouts/54902/v3/conversationsInboxMessages.json",
+      "area": "Conversations",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Conversations/Conversations/Rollouts/54902/v3/conversations.json",
+      "area": "Conversations",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Conversations/Custom Channels/Rollouts/160898/v3/Collection Directory_Custom Channels API/Conversations - Custom Channels API Collection.json",
+      "area": "Conversations",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Conversations/Custom Channels/Rollouts/160898/v3/customChannels.json",
+      "area": "Conversations",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Conversations/Visitor Identification/Rollouts/140938/v3/Collection Directory_VisitorId/Conversations - Visitor Identification API Collection.json",
+      "area": "Conversations",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Conversations/Visitor Identification/Rollouts/140938/v3/visitorIdentification.json",
+      "area": "Conversations",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Events/Events/Rollouts/147897/v3/CollectionDirectory_EventsAPI/Analytics & Events - Events API Collection.json",
+      "area": "Events",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Events/Events/Rollouts/147897/v3/events.json",
+      "area": "Events",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Events/Manage Event Definitions/Rollouts/138888/v3/Collection Directory_CustomEventDefinition/Analytics & Events - Custom Event Definitions API Collection.json",
+      "area": "Events",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Events/Manage Event Definitions/Rollouts/138888/v3/manageEventDefinitions.json",
+      "area": "Events",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Events/Send Event Completions/Rollouts/669/v3/Collection Directory_CustomBehavEvents/Custom Behavioral Events API Collection.json",
+      "area": "Events",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Events/Send Event Completions/Rollouts/669/v3/sendEventCompletions.json",
+      "area": "Events",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Files/Files/Rollouts/140950/v3/files.json",
+      "area": "Files",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Marketing/Campaigns Public Api/Rollouts/177944/v3/Collection Directory_Campaigns API/Marketing - Campaigns API Collection.json",
+      "area": "Marketing",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Marketing/Campaigns Public Api/Rollouts/177944/v3/campaignsPublicApi.json",
+      "area": "Marketing",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Marketing/Forms/Rollouts/144909/v3/Collection Directory_Marketing Forms API/Marketing - Forms API Collection.json",
+      "area": "Marketing",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Marketing/Forms/Rollouts/144909/v3/forms.json",
+      "area": "Marketing",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Marketing/Marketing Emails V3/Rollouts/155892/v3/marketingEmailsV3.json",
+      "area": "Marketing",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Marketing/Marketing Emails/Rollouts/145892/v3/Collection Directory_MktgEmails/Marketing - Marketing Emails API Collection.json",
+      "area": "Marketing",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Marketing/Marketing Emails/Rollouts/145892/v3/marketingEmails.json",
+      "area": "Marketing",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Marketing/Marketing Events/Rollouts/129888/v3/Collection Directory_MarketingEvents/Marketing Events API Collection.json",
+      "area": "Marketing",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Marketing/Marketing Events/Rollouts/129888/v3/marketingEvents.json",
+      "area": "Marketing",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Marketing/Single-send/Rollouts/106894/v4/Collection Directory_Single-Send/Marketing - Single-Send API Collection.json",
+      "area": "Marketing",
+      "version": "v4"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Marketing/Single-send/Rollouts/106894/v4/singlesend.json",
+      "area": "Marketing",
+      "version": "v4"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Marketing/Transactional Single Send/Rollouts/140892/v3/Collection Directory_TransactSingleSend/Marketing - Transactional Email API Collection.json",
+      "area": "Marketing",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Marketing/Transactional Single Send/Rollouts/140892/v3/transactionalSingleSend.json",
+      "area": "Marketing",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Meta/Origins/Rollouts/277913/v1/origins.json",
+      "area": "Meta",
+      "version": "v1"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Scheduler/Meetings/Rollouts/177892/v3/meetings.json",
+      "area": "Scheduler",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Settings/Multicurrency/Rollouts/145897/v3/Collection Directory_Currencies/Settings - Currencies API Collection.json",
+      "area": "Settings",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Settings/Multicurrency/Rollouts/145897/v3/multicurrency.json",
+      "area": "Settings",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Settings/Tax Rates/Rollouts/207908/v1/Collection Directory_Tax Rates API/Settings - Tax Rates API Collection.json",
+      "area": "Settings",
+      "version": "v1"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Settings/Tax Rates/Rollouts/207908/v1/taxRates.json",
+      "area": "Settings",
+      "version": "v1"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Settings/User Provisioning/Rollouts/144927/v3/Collection Directory_UserProv/Settings - User Provisioning API Collection.json",
+      "area": "Settings",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Settings/User Provisioning/Rollouts/144927/v3/userProvisioning.json",
+      "area": "Settings",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Webhooks/Webhooks/Rollouts/147891/v3/Collection Directory_Webhooks/Webhooks - Webhooks API Collection.json",
+      "area": "Webhooks",
+      "version": "v3"
+    }
+,
+    {
+      "path": "PublicApiSpecs/Webhooks/Webhooks/Rollouts/147891/v3/webhooks.json",
+      "area": "Webhooks",
+      "version": "v3"
+    }
+
+  ]
+}
