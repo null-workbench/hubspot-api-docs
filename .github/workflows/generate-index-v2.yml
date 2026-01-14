@@ -37,4 +37,34 @@ jobs:
               | sed '/^v[0-9]\+$/d' \
               | sed '/^rollouts$/d' \
               | sed '/^[0-9]\+$/d' \
-              | sed '/^collection$/
+              | sed '/^collection$/d' \
+              | sed '/^directory$/d' \
+              | sort -u)
+
+            keywords_json=$(printf '%s\n' "$kw_lines" | awk 'BEGIN{ORS=""; first=1} {gsub(/"/,"\\\""); if(first){printf "\"%s\"", $0; first=0}else{printf ",\"%s\"", $0}}')
+
+            if [ $first -eq 1 ]; then
+              first=0
+            else
+              printf ',\n' >> "$OUT"
+            fi
+
+            printf '    {\n' >> "$OUT"
+            printf '      "path": "%s",\n' "$file" >> "$OUT"
+            printf '      "area": "%s",\n' "$area" >> "$OUT"
+            printf '      "version": "%s",\n' "${version:-unknown}" >> "$OUT"
+            printf '      "keywords": [%s]\n' "$keywords_json" >> "$OUT"
+            printf '    }' >> "$OUT"
+          done < <(find PublicApiSpecs -type f -name "*.json" | sort)
+
+          printf '\n  ]\n}\n' >> "$OUT"
+
+      - name: Commit index.json
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add index.json
+          git commit -m "Auto-generate index.json (keywords)" || exit 0
+          git push
